@@ -4,7 +4,6 @@ import Problems from "../components/Problems";
 import Process from "../components/Process";
 import Value from "../components/Value";
 import Cases from "../components/Cases";
-import LeadForm from "../components/LeadForm";
 import Contact from "../components/Contact";
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
       <Process />
       <Value />
       <Cases />
-      <LeadForm />
       <Contact />
     </main>
   );
