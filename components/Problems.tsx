@@ -48,7 +48,7 @@ export default function Problems() {
               className="flex items-start gap-3 sm:gap-4 md:gap-6 group cursor-pointer"
             >
               <motion.div
-                className="flex-shrink-0 w-2 h-2 sm:w-3 sm:h-3 mt-2 sm:mt-3 rounded-full bg-gradient-to-r from-red-400 to-red-500"
+                className="shrink-0 w-2 h-2 sm:w-3 sm:h-3 mt-2 sm:mt-3 rounded-full bg-linear-to-r from-red-400 to-red-500"
                 animate={{ scale: [1, 1.2, 1] }}
                 transition={{ repeat: Infinity, duration: 2, delay: index * 0.5 }}
               />

@@ -35,11 +35,11 @@ export default function Value() {
               whileHover={{ y: -5 }}
               className="group"
             >
-              <div className="relative p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl md:rounded-3xl bg-gradient-to-b from-white to-slate-50 border border-slate-100 shadow-sm hover:shadow-lg sm:hover:shadow-xl transition-all duration-500 h-full">
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl sm:rounded-2xl md:rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="relative p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl md:rounded-3xl bg-linear-to-b from-white to-slate-50 border border-slate-100 shadow-sm hover:shadow-lg sm:hover:shadow-xl transition-all duration-500 h-full">
+                <div className="absolute inset-0 bg-linear-to-br from-blue-50 to-cyan-50 rounded-xl sm:rounded-2xl md:rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative z-10">
                   <motion.div
-                    className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-lg sm:rounded-xl md:rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 mb-4 sm:mb-6 flex items-center justify-center mx-auto"
+                    className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-lg sm:rounded-xl md:rounded-2xl bg-linear-to-br from-blue-500 to-cyan-400 mb-4 sm:mb-6 flex items-center justify-center mx-auto"
                     whileHover={{ rotate: 5, scale: 1.05 }}
                   >
                     <svg className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
