@@ -1,0 +1,5 @@
+Primary:   slate-900
+Secondary: slate-600
+Muted:     slate-400
+BG light:  slate-50
+Border:    slate-200
